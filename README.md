@@ -1,27 +1,31 @@
-# PYTMP3  
+# PYTMP3
 
-## A simple python ytmp3 application  
+## A Simple Python YTMP3 Application
 
-  **Don't use for public song sharing**
-  I have created a really simple python youtube to mp3 download, as a fix for all the stupid ytmp3 sites online that are viruses. Its simple to use, fully open-source, and.. well yeah.
+**Caution: Do not use for public song sharing.**
 
-  You can use the pre-built exe file, or follow instructions below to build one yourself if you dont trust random exe files (smart btw).
+I have created a straightforward Python YouTube to MP3 downloader as a solution for the numerous suspicious YTMP3 sites online that may contain viruses. It's simple to use, fully open-source, and, well, yeah.
 
-  ##### Check the releases tab for the pre-built pytmp3 exe file  
+You can use the pre-built executable file, or follow the instructions below to build one yourself if you don't trust random executable files (smart move, by the way).
 
-  # App instructions  
-  - Simply open the exe, you can minimize the command prompt window (black window) but **DONT** close it, it will close the app.
-  - Input a valid youtube URL and select (using the browse button) the folder to download to. *Default directory is the folder the app is in*
-  - Hit the convert button and you are done!
-  
-  ## App explanation
-  - The black window is a command prompt, this is a python interpreter *not everyone has python already installed on their pc*, this simply tells the pc how to run the exe file as python.
-   - Each important part of the code will have a comment explaning it
+##### Check the Releases tab for the pre-built PYTMP3 executable file.
 
-  # Build instructions
-  - To build the python file as an exe for yourself, you will have to have python on your pc [Python](python.org).
-  - Next go to command prompt and install pyinstaller [Pyinstaller Website](https://pyinstaller.org/en/stable/), using the command `pip install -U pyinstaller`
-   - **NOTE use the --onfile arg to install as one exe with python interpreter and dependencies**
-  - Open a command prompt/shell window, and navigate to the directory where your .py file is located, then build your app with the following command:
-   - `pyinstaller --onefile your_program.py` OR `pyinstaller your_program.py` *If you don't know what you're doing, use the --onefile arg*
-  - Your bundled application should now be available in the dist folder, located in the same directory as your python file.
+# App Instructions
+
+- Simply open the executable. You can minimize the command prompt window (black window), but **DON'T** close it; it will close the app.
+- Input a valid YouTube URL and select (using the browse button) the folder to download to. *The default directory is the folder the app is in.*
+- Hit the convert button, and you are done!
+
+## App Explanation
+
+- The black window is a command prompt; this is a Python interpreter (*not everyone has Python already installed on their PC*). It simply tells the PC how to run the executable file as Python.
+  - Each important part of the code will have a comment explaining it.
+
+# Build Instructions
+
+- To build the Python file as an executable for yourself, you will need to have Python on your PC [Python](https://python.org).
+- Next, go to the command prompt and install PyInstaller [PyInstaller Website](https://pyinstaller.org/en/stable/) using the command `pip install -U pyinstaller`.
+  - **NOTE: Use the `--onefile` argument to install as one executable with Python interpreter and dependencies.**
+- Open a command prompt/shell window, navigate to the directory where your `.py` file is located, and build your app with the following command:
+  - `pyinstaller --onefile your_program.py` OR `pyinstaller your_program.py` (*If you don't know what you're doing, use the `--onefile` argument.*)
+- Your bundled application should now be available in the `dist` folder, located in the same directory as your Python file.
