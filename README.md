@@ -10,8 +10,8 @@ You can use the pre-built executable file, or follow the instructions below to b
 
 ##### Check the Releases tab for the pre-built PYTMP3 executable file.
 
-# App Instructions
-
+# App Instructions  
+  ###Note: it might take a second the first time, it's installing its dependencies
 - Simply open the executable. You can minimize the command prompt window (black window), but **DON'T** close it; it will close the app.
 - Input a valid YouTube URL and select (using the browse button) the folder to download to. *The default directory is the folder the app is in.*
 - Hit the convert button, and you are done!
